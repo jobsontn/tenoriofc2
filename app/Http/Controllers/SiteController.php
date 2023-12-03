@@ -14,22 +14,18 @@ class SiteController extends Controller
     {
 
         $sql_gols = "
-            SELECT *,
-            ROW_NUMBER() OVER(ORDER BY gols DESC, min_id ASC) AS row_num  FROM (
             SELECT g.gol_player_id as id, p.name, COUNT(g.id) as gols, MIN(g.id) as min_id
             FROM `gols` g, `players` p
             WHERE g.gol_player_id = p.id
             GROUP BY g.gol_player_id, p.name
-            ORDER BY COUNT(g.id) DESC, g.id ASC) as tab1;
+            ORDER BY COUNT(g.id) DESC, g.id ASC
             ";
         $sql_assists = "
-            SELECT *,
-            ROW_NUMBER() OVER(ORDER BY assists DESC, min_id ASC) AS row_num  FROM (
             SELECT g.assistance_player_id, p.name, COUNT(g.id) as assists, MIN(g.id) as min_id
             FROM `gols` g, `players` p
             WHERE g.assistance_player_id = p.id
             GROUP BY g.assistance_player_id, p.name
-            ORDER BY COUNT(g.id) DESC, g.id ASC) as tab1;
+            ORDER BY COUNT(g.id) DESC, g.id ASC
             ";
 
         $func = function($dir){

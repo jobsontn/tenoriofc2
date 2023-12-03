@@ -41,6 +41,7 @@ class SiteController extends Controller
         };
 
         $directories = Storage::directories('public/fotos');
+        arsort($directories);
         $galleries = array_map($func, $directories);
 
         //dd($galleries);

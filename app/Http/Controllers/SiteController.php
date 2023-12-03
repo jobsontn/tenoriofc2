@@ -18,14 +18,14 @@ class SiteController extends Controller
             FROM `gols` g, `players` p
             WHERE g.gol_player_id = p.id
             GROUP BY g.gol_player_id, p.name
-            ORDER BY COUNT(g.id) DESC, g.id ASC
+            ORDER BY COUNT(g.id) DESC, MIN(g.id) ASC
             ";
         $sql_assists = "
             SELECT g.assistance_player_id, p.name, COUNT(g.id) as assists, MIN(g.id) as min_id
             FROM `gols` g, `players` p
             WHERE g.assistance_player_id = p.id
             GROUP BY g.assistance_player_id, p.name
-            ORDER BY COUNT(g.id) DESC, g.id ASC
+            ORDER BY COUNT(g.id) DESC, MIN(g.id) ASC
             ";
 
         $func = function($dir){

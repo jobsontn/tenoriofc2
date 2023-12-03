@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
-use App\Models\Player;
-use App\Models\Game;
+use App\Models\player;
+use App\Models\game;
 
 class SiteController extends Controller
 {
@@ -49,13 +49,13 @@ class SiteController extends Controller
 
         //dd($galleries);
 
-        $players1 = Player::where('active', 1)->where('team_id', 2)->get();
-        $players2 = Player::where('active', 1)->where('team_id', 1)->get();
+        $players1 = player::where('active', 1)->where('team_id', 2)->get();
+        $players2 = player::where('active', 1)->where('team_id', 1)->get();
         $gols = DB::select($sql_gols);
         $assists = DB::select($sql_assists);
-        $games = Game::whereNotNull('home_score')->whereNotNull('guest_score')->orderByDesc('played_at')->get();
-        $nextGame = Game::whereNull('home_score')->whereNull('guest_score')->orderByDesc('played_at')->first();
-        $videos = Game::whereNotNull('youtube_embed')->orderByDesc('played_at')->get();
+        $games = game::whereNotNull('home_score')->whereNotNull('guest_score')->orderByDesc('played_at')->get();
+        $nextGame = game::whereNull('home_score')->whereNull('guest_score')->orderByDesc('played_at')->first();
+        $videos = game::whereNotNull('youtube_embed')->orderByDesc('played_at')->get();
 
         return view('welcome', compact('players1', 'players2', 'gols', 'assists', 'games', 'galleries', 'videos', 'nextGame'));
     }

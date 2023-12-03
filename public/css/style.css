@@ -294,7 +294,7 @@ h5,
     bottom: 0;
     z-index: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 1);
     background-size: cover;
 }
 
@@ -903,7 +903,8 @@ h5,
 .hero.overlay:before {
     content: "";
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    background: transparent;
+    /* background: rgba(0, 0, 0, 0.7); */
     top: 0;
     left: 0;
     right: 0;

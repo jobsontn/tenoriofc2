@@ -45,12 +45,12 @@
         </div>
 
         <!-- Cabeçalho -->
-        <header class="site-navbar py-4" role="banner">
+        <header class="site-navbar py-4" role="banner" style="background-color: rgba(0,0,0,0.8);>
 
             <div class="container">
                 <div class="d-flex align-items-center">
                     <div class="site-logo">
-                        <a href="index.html">
+                        <a href="#">
                             <img src="images/logo.png" alt="Logo" style="height: 40px;">
                         </a>
                     </div>
@@ -74,10 +74,10 @@
         </header>
 
         <!-- Destaque -->
-        <div id="start_section" class="hero overlay" style="background-image: url('images/bg_3.jpg');">
+        <div id="start_section" class="hero overlay" style="background-image: url('images/bg_5.jpg');">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5 ml-auto">
+                    <div class="col-lg-6" style="border-radius: 20px; background-color: rgba(0,0,0,0.8); padding: 20px;">
                         <h1 class="text-white">Jogo de {{ $nextGame->name }}</h1>
                         <p>
                             Será a

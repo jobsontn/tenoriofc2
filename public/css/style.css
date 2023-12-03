@@ -281,7 +281,8 @@ h5,
     bottom: 0;
     z-index: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: transparent;
+    /* background: rgba(0, 0, 0, 0.7); */
     background-size: cover;
 }
 
@@ -294,7 +295,8 @@ h5,
     bottom: 0;
     z-index: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 1);
+    background: transparent;
+    /* background: rgba(0, 0, 0, 0.7); */
     background-size: cover;
 }
 

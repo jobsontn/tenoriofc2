@@ -77,7 +77,7 @@
         <div id="start_section" class="hero overlay" style="background-image: url('images/bg_5.jpg');">
             <div class="container">
                 <div class="row align-items-center">
-                    <div id="nextGame" class="col-lg-6 " style="background-color: rgba(0,0,0,0.6); border-radius: 20px;">
+                    <div id="nextGame" class="col-lg-6 ">
                         <h1 class="text-white">Jogo de {{ $nextGame->name }}</h1>
                         <p>
                             Será a

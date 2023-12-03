@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Lineup;
+use App\Models\lineup;
 
 class LineupSeeder extends Seeder
 {
@@ -14,49 +14,49 @@ class LineupSeeder extends Seeder
     public function run(): void
     {
         /* ---------- Natal 2015 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 2,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 2,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 2,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 9,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus Nobrega
             'game_id' => 2,
             'team_id' => 2,
             'player_id' => 14,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 2,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 13,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 2,
             'team_id' => 2,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 2,
             'team_id' => 2,
@@ -64,49 +64,49 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 2,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 2,
             'team_id' => 1,
             'player_id' => 3,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 2,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 2,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 8,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 2,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 2,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 23,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 2,
             'team_id' => 1,
@@ -114,49 +114,49 @@ class LineupSeeder extends Seeder
             'number' => 56,
         ]);
         /* ---------- Natal 2016 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 3,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 3,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus Nobrega
             'game_id' => 3,
             'team_id' => 2,
             'player_id' => 14,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 3,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 13,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 3,
             'team_id' => 2,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 3,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 21,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 3,
             'team_id' => 2,
@@ -164,49 +164,49 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 3,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 3,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 3,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 3,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 8,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 3,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 3,
             'team_id' => 1,
             'player_id' => 9,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 3,
             'team_id' => 1,
@@ -214,49 +214,49 @@ class LineupSeeder extends Seeder
             'number' => 15,
         ]);
         /* ---------- Natal 2017 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 4,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 4,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus Nobrega
             'game_id' => 4,
             'team_id' => 2,
             'player_id' => 14,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 4,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 13,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 4,
             'team_id' => 2,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 4,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 21,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 4,
             'team_id' => 2,
@@ -264,49 +264,49 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 4,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 4,
             'team_id' => 1,
             'player_id' => 3,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 4,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 4,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 4,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 8,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 4,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 4,
             'team_id' => 1,
@@ -314,56 +314,56 @@ class LineupSeeder extends Seeder
             'number' => 84,
         ]);
         /* ---------- Natal 2018 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 5,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 5,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus Nobrega
             'game_id' => 5,
             'team_id' => 2,
             'player_id' => 14,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 5,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 11,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 5,
             'team_id' => 2,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 5,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 21,
         ]);
-        Lineup::create([
+        lineup::create([
             // Artur
             'game_id' => 5,
             'team_id' => 2,
             'player_id' => 10,
             'number' => 77,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 5,
             'team_id' => 2,
@@ -371,49 +371,49 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 5,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 5,
             'team_id' => 1,
             'player_id' => 3,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 5,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 5,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 9,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 5,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 5,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 11,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 5,
             'team_id' => 1,
@@ -421,63 +421,63 @@ class LineupSeeder extends Seeder
             'number' => 59,
         ]);
         /* ---------- Natal 2019 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Vitinho
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 18,
             'number' => 1,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 16,
             'number' => 9,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus Nobrega
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 14,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 14,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 21,
         ]);
-        Lineup::create([
+        lineup::create([
             // Artur
             'game_id' => 6,
             'team_id' => 2,
             'player_id' => 10,
             'number' => 77,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 6,
             'team_id' => 2,
@@ -485,56 +485,56 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 6,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 6,
             'team_id' => 1,
             'player_id' => 3,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 6,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 6,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 6,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 11,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 6,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 18,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 6,
             'team_id' => 1,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 6,
             'team_id' => 1,
@@ -542,42 +542,42 @@ class LineupSeeder extends Seeder
             'number' => 60,
         ]);
         /* ---------- Natal 2020 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 7,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 7,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus
             'game_id' => 7,
             'team_id' => 2,
             'player_id' => 16,
             'number' => 9,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus Nobrega
             'game_id' => 7,
             'team_id' => 2,
             'player_id' => 14,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 7,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 14,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 7,
             'team_id' => 2,
@@ -585,56 +585,56 @@ class LineupSeeder extends Seeder
             'number' => 21,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 3,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 11,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 18,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 7,
             'team_id' => 1,
@@ -642,49 +642,49 @@ class LineupSeeder extends Seeder
             'number' => 60,
         ]);
         /* ---------- Natal 2021 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 8,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 8,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 7,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 8,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 14,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 8,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 21,
         ]);
-        Lineup::create([
+        lineup::create([
             // Artur
             'game_id' => 8,
             'team_id' => 2,
             'player_id' => 10,
             'number' => 77,
         ]);
-        Lineup::create([
+        lineup::create([
             // Paulinho
             'game_id' => 8,
             'team_id' => 2,
             'player_id' => 19,
             'number' => 88,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 8,
             'team_id' => 2,
@@ -692,56 +692,56 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 8,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 7,
             'team_id' => 1,
             'player_id' => 3,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 8,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 8,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 8,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 11,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 8,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 18,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 8,
             'team_id' => 1,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 8,
             'team_id' => 1,
@@ -749,49 +749,49 @@ class LineupSeeder extends Seeder
             'number' => 61,
         ]);
         /* ---------- Natal 2022 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 9,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 9,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 9,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 14,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus
             'game_id' => 9,
             'team_id' => 2,
             'player_id' => 16,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 9,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 21,
         ]);
-        Lineup::create([
+        lineup::create([
             // Artur
             'game_id' => 9,
             'team_id' => 2,
             'player_id' => 10,
             'number' => 77,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 9,
             'team_id' => 2,
@@ -799,7 +799,7 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 9,
             'team_id' => 1,
@@ -807,35 +807,35 @@ class LineupSeeder extends Seeder
             'number' => 12,
         ]);
 
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 9,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 3,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 9,
             'team_id' => 1,
             'player_id' => 7,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 9,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 6,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 9,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 9,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 9,
             'team_id' => 1,
@@ -843,21 +843,21 @@ class LineupSeeder extends Seeder
             'number' => 11,
         ]);
         /* ---------- Natal 2023 ---------- */
-        Lineup::create([
+        lineup::create([
             // P. Junior
             'game_id' => 10,
             'team_id' => 2,
             'player_id' => 2,
             'number' => 92,
         ]);
-        Lineup::create([
+        lineup::create([
             // Artur
             'game_id' => 10,
             'team_id' => 2,
             'player_id' => 10,
             'number' => 9,
         ]);
-        Lineup::create([
+        lineup::create([
             // João Pedro
             'game_id' => 10,
             'team_id' => 2,
@@ -865,42 +865,42 @@ class LineupSeeder extends Seeder
             'number' => 11,
         ]);
 
-        Lineup::create([
+        lineup::create([
             // Helder
             'game_id' => 10,
             'team_id' => 2,
             'player_id' => 12,
             'number' => 13,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tom
             'game_id' => 10,
             'team_id' => 2,
             'player_id' => 13,
             'number' => 14,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus Nobrega
             'game_id' => 10,
             'team_id' => 2,
             'player_id' => 14,
             'number' => 17,
         ]);
-        Lineup::create([
+        lineup::create([
             // Tande
             'game_id' => 10,
             'team_id' => 2,
             'player_id' => 15,
             'number' => 21,
         ]);
-        Lineup::create([
+        lineup::create([
             // Matheus
             'game_id' => 10,
             'team_id' => 2,
             'player_id' => 16,
             'number' => 30,
         ]);
-        Lineup::create([
+        lineup::create([
             // Rogério
             'game_id' => 10,
             'team_id' => 2,
@@ -908,56 +908,56 @@ class LineupSeeder extends Seeder
             'number' => 99,
         ]);
         /* ---------- */
-        Lineup::create([
+        lineup::create([
             // Jailson
             'game_id' => 10,
             'team_id' => 1,
             'player_id' => 1,
             'number' => 12,
         ]);
-        Lineup::create([
+        lineup::create([
             // Andriel
             'game_id' => 10,
             'team_id' => 1,
             'player_id' => 3,
             'number' => 4,
         ]);
-        Lineup::create([
+        lineup::create([
             // Hugo
             'game_id' => 10,
             'team_id' => 1,
             'player_id' => 4,
             'number' => 5,
         ]);
-        Lineup::create([
+        lineup::create([
             // Jobson
             'game_id' => 10,
             'team_id' => 1,
             'player_id' => 5,
             'number' => 8,
         ]);
-        Lineup::create([
+        lineup::create([
             // Perocélio
             'game_id' => 10,
             'team_id' => 1,
             'player_id' => 6,
             'number' => 10,
         ]);
-        Lineup::create([
+        lineup::create([
             // Gleidson
             'game_id' => 10,
             'team_id' => 1,
             'player_id' => 7,
             'number' => 20,
         ]);
-        Lineup::create([
+        lineup::create([
             // Boni
             'game_id' => 10,
             'team_id' => 1,
             'player_id' => 8,
             'number' => 23,
         ]);
-        Lineup::create([
+        lineup::create([
             // João
             'game_id' => 10,
             'team_id' => 1,

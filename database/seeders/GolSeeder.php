@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Gol;
+use App\Models\gol;
 
 class GolSeeder extends Seeder
 {
@@ -14,7 +14,7 @@ class GolSeeder extends Seeder
     public function run(): void
     {
         /* ---------- Natal 2015 ---------- */
-        Gol::create([
+        gol::create([
             // 03:32	Perocélio	Jobson
             'game_id' => 2,
             'team_id' => 1,
@@ -24,7 +24,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:03:32',
         ]);
-        Gol::create([
+        gol::create([
             // 04:22	Gleidson
             'game_id' => 2,
             'team_id' => 2,
@@ -34,7 +34,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:04:22',
         ]);
-        Gol::create([
+        gol::create([
             // 06:28	Perbônio TT	M. Nóbrega
             'game_id' => 2,
             'team_id' => 2,
@@ -44,7 +44,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:06:28',
         ]);
-        Gol::create([
+        gol::create([
             // 07:13	Jobson	Hugo
             'game_id' => 2,
             'team_id' => 1,
@@ -54,7 +54,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:07:13',
         ]);
-        Gol::create([
+        gol::create([
             // 08:32	Hugo	Perocélio
             'game_id' => 2,
             'team_id' => 1,
@@ -64,7 +64,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:08:32',
         ]);
-        Gol::create([
+        gol::create([
             // 10:48	Andriel
             'game_id' => 2,
             'team_id' => 1,
@@ -75,7 +75,7 @@ class GolSeeder extends Seeder
             'resume_time' => '00:10:48',
         ]);
         /* ---------- Natal 2016 ---------- */
-        Gol::create([
+        gol::create([
             // 02:48	Perbônio TT
             'game_id' => 3,
             'team_id' => 2,
@@ -85,7 +85,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:02:48',
         ]);
-        Gol::create([
+        gol::create([
             // 03:26	M. Nóbrega	Perbônio TT
             'game_id' => 3,
             'team_id' => 2,
@@ -95,7 +95,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:03:26',
         ]);
-        Gol::create([
+        gol::create([
             // 06:00	Hugo	Perocélio
             'game_id' => 3,
             'team_id' => 1,
@@ -105,7 +105,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:06:00',
         ]);
-        Gol::create([
+        gol::create([
             // 06:28	Jobson
             'game_id' => 3,
             'team_id' => 1,
@@ -115,7 +115,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:06:28',
         ]);
-        Gol::create([
+        gol::create([
             // 07:49	Perbônio TT	Gleidson
             'game_id' => 3,
             'team_id' => 2,
@@ -125,7 +125,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:07:49',
         ]);
-        Gol::create([
+        gol::create([
             // 09:51	Perocélio
             'game_id' => 3,
             'team_id' => 1,
@@ -136,7 +136,7 @@ class GolSeeder extends Seeder
             'resume_time' => '00:09:51',
         ]);
         /* ---------- Natal 2017 ---------- */
-        Gol::create([
+        gol::create([
             // 02:25	Tande	Paulo C.
             'game_id' => 4,
             'team_id' => 2,
@@ -146,7 +146,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:02:25',
         ]);
-        Gol::create([
+        gol::create([
             // 03:37	Andriel	Jailson
             'game_id' => 4,
             'team_id' => 1,
@@ -156,7 +156,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:03:37',
         ]);
-        Gol::create([
+        gol::create([
             // 05:25	Hugo
             'game_id' => 4,
             'team_id' => 1,
@@ -166,7 +166,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:05:25',
         ]);
-        Gol::create([
+        gol::create([
             // 08:07	Perocélio	Andriel
             'game_id' => 4,
             'team_id' => 1,
@@ -177,7 +177,7 @@ class GolSeeder extends Seeder
             'resume_time' => '00:08:07',
         ]);
         /* ---------- Natal 2018 ---------- */
-        Gol::create([
+        gol::create([
             // 03:48	M. Nóbrega	Perbônio TT
             'game_id' => 5,
             'team_id' => 2,
@@ -187,7 +187,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:03:48',
         ]);
-        Gol::create([
+        gol::create([
             // 05:03	Tande	Paulo C.
             'game_id' => 5,
             'team_id' => 2,
@@ -197,7 +197,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:05:03',
         ]);
-        Gol::create([
+        gol::create([
             // 05:49	Gleidson
             'game_id' => 5,
             'team_id' => 2,
@@ -207,7 +207,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:05:49',
         ]);
-        Gol::create([
+        gol::create([
             // 06:19	Jobson	Andriel
             'game_id' => 5,
             'team_id' => 1,
@@ -218,7 +218,7 @@ class GolSeeder extends Seeder
             'resume_time' => '00:06:19',
         ]);
         /* ---------- Natal 2019 ---------- */
-        Gol::create([
+        gol::create([
             // 01:46	Perbônio TT	Helder
             'game_id' => 6,
             'team_id' => 2,
@@ -228,7 +228,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:01:46',
         ]);
-        Gol::create([
+        gol::create([
             // 03:37	Hugo	Perocélio
             'game_id' => 6,
             'team_id' => 1,
@@ -238,7 +238,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:03:37',
         ]);
-        Gol::create([
+        gol::create([
             // 04:47	Gleidson	Andriel
             'game_id' => 6,
             'team_id' => 1,
@@ -248,7 +248,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:04:47',
         ]);
-        Gol::create([
+        gol::create([
             // 05:09	Vitinho	Artur
             'game_id' => 6,
             'team_id' => 1,
@@ -258,7 +258,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:05:09',
         ]);
-        Gol::create([
+        gol::create([
             // 08:34	Perbônio TT
             'game_id' => 6,
             'team_id' => 1,
@@ -268,7 +268,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:08:34',
         ]);
-        Gol::create([
+        gol::create([
             // 09:02	Perbônio TT	Artur
             'game_id' => 6,
             'team_id' => 1,
@@ -279,7 +279,7 @@ class GolSeeder extends Seeder
             'resume_time' => '00:09:02',
         ]);
         /* ---------- Natal 2020 ---------- */
-        Gol::create([
+        gol::create([
             // 01:32	Andriel	Gleidson
             'game_id' => 7,
             'team_id' => 1,
@@ -289,7 +289,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:01:32',
         ]);
-        Gol::create([
+        gol::create([
             // 02:44	Gleidson	Andriel
             'game_id' => 7,
             'team_id' => 1,
@@ -299,7 +299,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:02:44',
         ]);
-        Gol::create([
+        gol::create([
             // 05:17	Perbônio TT	Helder
             'game_id' => 7,
             'team_id' => 2,
@@ -309,7 +309,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:05:17',
         ]);
-        Gol::create([
+        gol::create([
             // 06:22	Gleidson	Andriel
             'game_id' => 7,
             'team_id' => 1,
@@ -319,7 +319,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:05:17',
         ]);
-        Gol::create([
+        gol::create([
             // 08:22	João	Hugo
             'game_id' => 7,
             'team_id' => 1,
@@ -329,7 +329,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:08:22',
         ]);
-        Gol::create([
+        gol::create([
             // 11:34	Gleidson
             'game_id' => 7,
             'team_id' => 1,
@@ -340,7 +340,7 @@ class GolSeeder extends Seeder
             'resume_time' => '00:11:34',
         ]);
         /* ---------- Natal 2021 ---------- */
-        Gol::create([
+        gol::create([
             // 01:32	Perbônio TT	Paulo C.
             'game_id' => 8,
             'team_id' => 2,
@@ -350,7 +350,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:01:32',
         ]);
-        Gol::create([
+        gol::create([
             // 02:01	Tande	Paulo C.
             'game_id' => 8,
             'team_id' => 2,
@@ -360,7 +360,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:02:01',
         ]);
-        Gol::create([
+        gol::create([
             // 02:27	Perocélio	Jobson
             'game_id' => 8,
             'team_id' => 2,
@@ -370,7 +370,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:02:27',
         ]);
-        Gol::create([
+        gol::create([
             // 03:17	Artur	Paulo C.
             'game_id' => 8,
             'team_id' => 2,
@@ -381,7 +381,7 @@ class GolSeeder extends Seeder
             'resume_time' => '00:03:17',
         ]);
         /* ---------- Natal 2022 ---------- */
-        Gol::create([
+        gol::create([
             // 02:13	Tande	Artur
             'game_id' => 9,
             'team_id' => 2,
@@ -391,7 +391,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:02:13',
         ]);
-        Gol::create([
+        gol::create([
             // 02:32	Tande	Perbônio TT
             'game_id' => 9,
             'team_id' => 2,
@@ -401,7 +401,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:02:13',
         ]);
-        Gol::create([
+        gol::create([
             // 04:56	Gleidson	Perocélio
             'game_id' => 9,
             'team_id' => 1,
@@ -411,7 +411,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:04:56',
         ]);
-        Gol::create([
+        gol::create([
             // 05:44	Artur	Tande
             'game_id' => 9,
             'team_id' => 2,
@@ -421,7 +421,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:04:56',
         ]);
-        Gol::create([
+        gol::create([
             // 06:30	Gleidson	João
             'game_id' => 9,
             'team_id' => 1,
@@ -431,7 +431,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:06:30',
         ]);
-        Gol::create([
+        gol::create([
             // 06:56	Tande	Paulo C.
             'game_id' => 9,
             'team_id' => 2,
@@ -441,7 +441,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:06:56',
         ]);
-        Gol::create([
+        gol::create([
             // 08:03	Paulo C.
             'game_id' => 9,
             'team_id' => 2,
@@ -451,7 +451,7 @@ class GolSeeder extends Seeder
             'video_time' => null,
             'resume_time' => '00:08:03',
         ]);
-        Gol::create([
+        gol::create([
             // 09:48	Jobson	Gleidson
             'game_id' => 9,
             'team_id' => 1,

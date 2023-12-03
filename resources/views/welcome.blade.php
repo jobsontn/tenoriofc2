@@ -326,7 +326,7 @@
                                 <tbody>
                                     @foreach ($gols as $gol)
                                     <tr>
-                                        <td>{{ $loop->index }}º</td>
+                                        <td>{{ $loop->index + 1 }}º</td>
                                         <td><strong>{{ $gol->name }}</strong></td>
                                         <td>{{ $gol->gols }}</td>
                                     </tr>
@@ -347,7 +347,7 @@
                                 <tbody>
                                     @foreach ($assists as $assist)
                                     <tr>
-                                        <td>{{ $loop->index }}º</td>
+                                        <td>{{ $loop->index + 1 }}º</td>
                                         <td><strong>{{ $assist->name }}</strong></td>
                                         <td>{{ $assist->assists }}</td>
                                     </tr>

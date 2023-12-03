@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Team;
+use App\Models\team;
 
 class TeamSeeder extends Seeder
 {
@@ -13,11 +13,11 @@ class TeamSeeder extends Seeder
      */
     public function run(): void
     {
-        Team::create([
+        team::create([
             'name' => 'Experiência',
             'color' => '#1b1c31',
         ]);
-        Team::create([
+        team::create([
             'name' => 'Juventude',
             'color' => '#c5b3bc',
         ]);

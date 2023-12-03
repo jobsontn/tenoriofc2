@@ -1750,4 +1750,8 @@ h5,
         padding-right: 4vw;
     }
 
+    #teams_section h3{
+        font-size: 1.2rem;
+    }
+
 }

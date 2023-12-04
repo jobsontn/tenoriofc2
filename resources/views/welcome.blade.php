@@ -380,7 +380,7 @@
                         <div style="max-width: 280px; margin: 10px; {{ $loop->first ? 'display: block;' : 'display: none;' }}">
                             <a data-fancybox="gallery-{{ $g->name }}" class="grouped_elements" rel="group{{ $g->name }}" href="{{ $picture }}">
                                 <img src="{{ $picture }}" alt="" class="img-fluid" />
-                                <h4 class="text-red text-center mt-2">Natal {{ $g->name }}</h4>
+                                <h4 class="text-red text-center mt-2">Natal {{ $g->name }} <small>({{ count($g->pictures) }} fotos)</small></h4>
                             </a>
                         </div>
                         @endforeach

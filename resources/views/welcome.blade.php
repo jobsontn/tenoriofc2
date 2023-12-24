@@ -137,7 +137,7 @@
                             <div class="team-details w-100 text-center">
                                 <img src="images/tenoriofc01.png" alt="Image" class="img-fluid img-team">
                                 <h3>JUVENTUDE</h3>
-                                <h4>(4V - 1E - 4D)</h4>
+                                <h4>(4V - 1E - 5D)</h4>
                                 <ul class="list-unstyled">
                                     @foreach ($players1 as $player)
                                     <li>{{ $player->name }} ({{ $player->number }})</li>
@@ -149,7 +149,7 @@
                             <div class="team-details w-100 text-center">
                                 <img src="images/tenoriofc02.png" alt="Image" class="img-fluid img-team">
                                 <h3>EXPERIÊNCIA</h3>
-                                <h4>(4V - 1E - 4D)</h4>
+                                <h4>(5V - 1E - 4D)</h4>
                                 <ul class="list-unstyled">
                                     @foreach ($players2 as $player)
                                     <li>{{ $player->name }} ({{ $player->number }})</li>

@@ -462,7 +462,98 @@ class GolSeeder extends Seeder
             'resume_time' => '00:08:03',
         ]);
         /* ---------- Natal 2023 ---------- */
+        gol::create([
+            // 08:33	Gleidson	Andriel
+            'game_id' => 10,
+            'team_id' => 2,
+            'gol_player_id' => 7,
+            'assistance_player_id' => 3,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:08:33',
+        ]);
+        gol::create([
+            // 14:48	Matheus	    Artur
+            'game_id' => 10,
+            'team_id' => 1,
+            'gol_player_id' => 14,
+            'assistance_player_id' => 10,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:14:48',
+        ]);
+        gol::create([
+            // 18:29	Gleidson	Andriel
+            'game_id' => 10,
+            'team_id' => 2,
+            'gol_player_id' => 7,
+            'assistance_player_id' => 3,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:18:29',
+        ]);
+        gol::create([
+            // 00:07	Andriel
+            'game_id' => 10,
+            'team_id' => 2,
+            'gol_player_id' => 3,
+            'assistance_player_id' => null,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:00:07',
+        ]);
+        gol::create([
+            // 04:50	Jobson	Andriel
+            'game_id' => 10,
+            'team_id' => 2,
+            'gol_player_id' => 5,
+            'assistance_player_id' => 3,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:04:50',
+        ]);
+        gol::create([
+            // 05:44	Matheus
+            'game_id' => 10,
+            'team_id' => 1,
+            'gol_player_id' => 14,
+            'assistance_player_id' => null,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:05:44',
+        ]);
+        gol::create([
+            // 10:25	Tom	    Matheus
+            'game_id' => 10,
+            'team_id' => 1,
+            'gol_player_id' => 13,
+            'assistance_player_id' => 14,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:10:25',
+        ]);
+        gol::create([
+            // 12:07	Andriel 	Gleidson
+            'game_id' => 10,
+            'team_id' => 2,
+            'gol_player_id' => 3,
+            'assistance_player_id' => 7,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:12:07',
+        ]);
+        gol::create([
+            // 12:45	Tom	    Tande
+            'game_id' => 10,
+            'team_id' => 1,
+            'gol_player_id' => 13,
+            'assistance_player_id' => 15,
+            'game_time' => null,
+            'video_time' => null,
+            'resume_time' => '00:12:45',
+        ]);
         /*
+
 
          */
     }

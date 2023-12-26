@@ -140,8 +140,8 @@ class GameSeeder extends Seeder
             'guest_score' => 5,
             'local' => 'IFPE Belo Jardim',
             'played_at' => '2023-12-24 15:00:00',
-            'youtube_link' => 'https://youtu.be/PzXeMr_M_iM',
-            'youtube_embed' => '<iframe width="300" height="150" src="https://www.youtube.com/embed/PzXeMr_M_iM?si=78z2YaLtP7epT2b6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+            'youtube_link' => 'https://youtu.be/Yw4jYqVVd1I',
+            'youtube_embed' => '<iframe width="300" height="150" src="https://www.youtube.com/embed/Yw4jYqVVd1I?si=XXO588tOFbZjJFk3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
         ]);
         game::create([
             'name' => 'Natal 2024',
